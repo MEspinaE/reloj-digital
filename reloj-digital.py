@@ -9,7 +9,7 @@ def actualiza_reloj():
 root = tk.Tk()
 root.title("Reloj Digital")
 
-clock_label = tk.Label(root, font=("Times new roman", 35))
+clock_label = tk.Label(root, font=("Arial", 35))
 clock_label.pack()
 
 actualiza_reloj() 
